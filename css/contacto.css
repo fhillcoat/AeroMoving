@@ -1,0 +1,62 @@
+.contacto { color: #272d33;
+            font-family: 'Roboto', sans-serif; }
+
+.navbar { position: fixed;
+          height: 15vh;
+	        background-color: white;
+          border-color: #272d33;
+          box-sizing: border-box; 
+          box-shadow: rgba(0,0,0,0.05);
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px;
+                padding-top: 18px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   color: #272d33;
+                                   font-weight: bold;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #981414;  }
+
+.brand { position: absolute;
+         top: 16px; }
+
+.titulo { padding-top: 120px;
+          padding-bottom: 30px;
+          text-align: center;}
+
+.titulo h1 { font-size: 28px;
+             font-weight: bold;
+             color: #981414; }
+
+.formulario { margin-top: 25px; }
+
+.steps { padding-bottom: 5px;
+         border-radius: 2px; }
+
+.steps h3 { font-size: 15px;
+            padding-bottom: 1px;
+            color: #272d33;
+            font-weight: bold; }
+
+.btn { width: 50%;
+       margin-left: 25%;
+       color: #981414;
+       border-color: #981414;
+       font-size: 15px;
+       font-weight: bold;
+       margin-top: 20px; }
+
+.btn:hover { background-color: #981414;
+             color: white;
+             border-color:#981414; }
+
+
+ #map {
+   width: 95%;
+   height: 350px;
+ }

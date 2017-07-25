@@ -1,0 +1,32 @@
+.home { color: #272d33;
+        font-family: 'Roboto', sans-serif; }
+
+.navbar { position: relative;
+          height: 15vh;
+	        background-color: white;
+          border-color: #272d33;
+          box-sizing: border-box; 
+          box-shadow: rgba(0,0,0,0.05);
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px;
+                padding-top: 18px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   color: #272d33;
+                                   font-weight: bold;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #981414;  }
+
+.brand { position: absolute;
+         top: 16px; }
+
+
+.carousel-inner>.item>img { display: block;
+                            max-width: 100%;
+                            height: 85vh;
+                            width: 100%; }

@@ -1,0 +1,201 @@
+.home { color: #272d33;
+        font-family: 'Roboto', sans-serif; }
+
+.navbar { position: fixed;
+          height: 15vh;
+	        background-color: white;
+          border-color: #272d33;
+          box-sizing: border-box; 
+          box-shadow: rgba(0,0,0,0.05);
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px;
+                padding-top: 18px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   color: #272d33;
+                                   font-weight: bold;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #981414;  }
+
+.brand { position: absolute;
+         top: 18px;
+         left: 20px; }
+
+#pasos { position: absolute;
+         bottom: 80px; }
+
+.titulo-principal { text-align: center;
+                    position: relative;
+                    top: 180px; }
+
+.titulo-principal h1 { position: relative;
+                       box-sizing: border-box;
+                       text-shadow: #000;
+                       font-size: 70px;
+                       color: white; }
+
+.titulo-principal p { color: white;
+                      font-size: 26px; }
+
+
+.btn-primary { margin-top: 40px;
+               padding: 10px 20px;
+               font-size: 18px;
+               background-color: #981414;
+               border-color: #981414; }
+
+.btn-primary:hover { background-color: transparent;
+                     font-weight: bold;
+                     border-color: #981414;
+                     color: #981414; }
+
+.linea-center { width: 40px;
+                height: 3px;
+                background-color: #981414;
+                margin: 0 auto 40px auto; }
+
+.jumbotron { height: 100vh;
+             margin-bottom: 40px;
+             background-image: url("../img/foto-principal1.jpg");
+             background-repeat: cover; }
+
+.nosotros { text-align: center;
+            margin-bottom: 35px;}
+
+.encabezado { font-size: 24px;
+              font-weight: bold; }
+
+.titulo { padding-bottom: 18px; }
+
+.parrafo p { font-size: 20px;
+             line-height: 30px;
+             padding-bottom: 30px; }
+
+.pasos { text-align: center;
+         background-color: #333;
+         margin-bottom: 50px; }
+
+.pasos-titulo-principal h3 { font-size: 20px;
+                             color: #898989;
+                             padding-top: 10px;
+                             padding-bottom: 24px; }
+
+.art { color: #898989;
+	   padding-bottom: 24px; }
+
+.img { padding-bottom: 10px; }
+
+.clientes { text-align: center;
+            margin-top: 40px;
+            margin-bottom: 60px; }
+
+.subtitulos h2 { font-size: 30px;
+                 padding-top: 20px;
+                 text-align: center; }
+
+.oficio { padding-bottom: 20px; }
+
+.footer { background-color: #333; 
+          height: auto; 
+          color: white;
+          padding-top: 30px;}
+
+.footer-list a { color: white; }
+
+.pull-right a { color: white; }
+
+.productos {margin-bottom: 50px;}
+
+.foto-productos { color: white;
+                 border-radius: 3px;
+                 height: 250px;
+                 position: relative;
+                 margin-bottom: 10px;
+                 margin-top: 25px;}
+
+
+.foto-productos h1 { position: absolute;
+                     bottom: 0;
+                     margin: 0;
+                     padding: 8px;
+                     width: 100%;
+                     text-align: center;
+                     background-color: rgba(0,0,0,0.9); 
+                     font-size: 23px;}
+
+.ultimo { padding-top: 15px; }
+
+.img-1 { background-image: url("../img/ventilador.jpg");
+         background-size: cover;
+         background-position: center; }
+
+
+.img-2 { background-image: url("../img/cortina-aire.jpg");
+         background-size: cover;
+         background-position: center; }
+
+.img-3 { background-image: url("../img/conductos.jpg");
+         background-size: cover;
+         background-position: center; }
+
+.img-4 { background-image: url("../img/torre.jpg");
+         background-size: cover;
+         background-position: top; }
+
+.img-5 { background-image: url("../img/filtro.jpg");
+         background-size: cover; }
+
+.img-6 { background-image: url("../img/estractor.jpg");
+         background-size: cover; }
+
+#blabla { position: relative;
+          bottom: 30px; }
+
+ 
+
+@media (max-width: 768px) {
+
+.titulo-principal > h1 { font-size: 45px; }
+
+}
+
+@media (max-width: 768px) {
+
+.titulo-principal > p { font-size: 20px; }
+
+}
+
+@media (max-width: 320px) {
+
+.titulo-principal > h1 { font-size: 30px; }
+
+}
+
+@media (max-width: 320px) {
+
+.titulo-principal > p { font-size: 12px; }
+
+}
+
+@media (min-width: 320px) {
+
+.brand { width: 250px; }
+
+}
+
+@media (max-width: 320px) {
+
+.navbar-inverse .navbar-nav>li>a { font-size: 12px; }
+
+}
+
+@media (max-width: 768px) {
+
+.navbar-inverse .navbar-nav>li>a { font-size: 12px; }
+
+}

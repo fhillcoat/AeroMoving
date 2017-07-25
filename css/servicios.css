@@ -1,0 +1,56 @@
+.servicios { color: #272d33;
+             font-family: 'Roboto', sans-serif; }
+
+.navbar { position: fixed;
+          height: 15vh;
+	        background-color: white;
+          border-color: #272d33;
+          box-sizing: border-box; 
+          box-shadow: rgba(0,0,0,0.05);
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px;
+                padding-top: 18px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   color:#272d33;
+                                   font-weight: bold;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #981414;  }
+
+.brand { position: absolute;
+         top: 16px; }
+
+.titulo { padding-top: 140px;
+          padding-bottom: 20px;
+          text-align: center;}
+
+.titulo h1 { font-size: 40px;
+             font-weight: bold;
+             color: #981414; }
+
+.lista-servicios li { text-decoration: none;
+                      list-style: none;
+                      padding-bottom: 5px;
+                      color: #981414;
+                      font-weight: bold;
+                      font-size: 18px;  }
+
+.subtitulo-servicios h2 { padding-bottom: 18px; }
+
+.alcance { text-align: center; 
+           margin-top: 30px;}
+
+.footer { background-color: #333; 
+          height: auto; 
+          color: white;
+          padding-top: 30px;
+          margin-top: 50px;}
+
+.footer-list a { color: white;  }
+
+.pull-right a { color: white; }
