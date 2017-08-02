@@ -3,7 +3,7 @@
 
 .navbar { position: relative;
           height: 15vh;
-	        background-color: white;
+          background-color: white;
           border-color: #272d33;
           box-sizing: border-box; 
           box-shadow: rgba(0,0,0,0.05);
@@ -13,20 +13,24 @@
           transition: all 0.4s ease;
           margin: 0;}
 
-.navbar-right { padding-right: 5px;
-                padding-top: 18px; }
+.navbar-right { padding-right: 5px; }
 
 .navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   padding-top: 30px;
+                                   padding-bottom: 30px;
                                    color: #272d33;
                                    font-weight: bold;  }
 
 .navbar-inverse .navbar-nav>li>a:hover { color: #981414;  }
 
 .brand { position: absolute;
-         top: 16px; }
+         top: 20px;
+         left: 20px; }
 
 
-.carousel-inner>.item>img { display: block;
-                            max-width: 100%;
-                            height: 85vh;
-                            width: 100%; }
+.thumbnail { margin-top: 30px; 
+             height: 171px;
+             width: 180px;}
+
+.thumbnail>img { height: 160px;
+                 width: 179px;}
