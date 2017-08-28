@@ -5,7 +5,7 @@
 	$email = $_POST['email'];
 	$comentarios = $_POST['f_comentarios']
 
-	$destinatario = 'mmedveseck@aeromovingsa.com.ar';
+	$destinatario = 'fernando@hillcoat.com.ar';
 	$asunto = 'Consulta en ICM Ventilación';
 	$cuerpo = "$nombre - $empresa ha realizado una consulta<br><br>$comentarios<br><br>Respondele a: $email<br>O llamalo al $telefono";
 
